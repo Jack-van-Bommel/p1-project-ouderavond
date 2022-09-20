@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet formulier" href="stylesheet.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,11 @@
 </head>
 <body>
     <header>
+        <img src="./img/Tui logo.jpg" alt="HTML image Tui logo" width="75px" height="75px">
         <h1>Welkom bij het TUI boekingsformulier</h1>
     </header>
     <form>
-        <section class="first-last-name"></section>
+        <section class="voor-achter-naam">
         <h3>Vul hier uw voor- en achternaam in:</h3>
             <label for="v_naam">Voornaam:</label><br>
             <input type="text" id="v_naam" name="v_naam" pattern="[A-Za-z]+" placeholder="Vul hier uw voornaam in"><br>
@@ -23,11 +25,11 @@
         <section class="Gender">
             <h3>Vul hier uw geslacht in:</h3>
             <label for="m_gender">Man</label>
-            <input type="radio" id="m_gender" name="gender" checked>
+            <input type="radio" id="m_gender" name="gender" checked><br>
             <label for="v_gender">Vrouw</label>
-            <input type="radio" id="v_gender" name="gender">
+            <input type="radio" id="v_gender" name="gender"><br>
             <label for="no_gender">Anders</label>
-            <input type="radio" id="no_gender" name="gender">
+            <input type="radio" id="no_gender" name="gender"><br>
         </section>
 
         <section class="adres">
