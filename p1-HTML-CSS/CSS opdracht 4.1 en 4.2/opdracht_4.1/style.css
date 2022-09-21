@@ -1,12 +1,19 @@
 header {
     min-width: 100%;
-    min-height: 1%;
+    min-height: 35%;
     background-image: url("img/fifa 23 1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+img {
+    width: 50%;
 }
 
 h1 {
     font-size: 24px;
-    color: blue;
+    color: black;
     font-weight: bold;
     font-style: italic;
 }
@@ -28,7 +35,7 @@ p {
 }
 
 .paragraaf_1 {
-    color: #4D4D4D;
+    color:  black;
     font-weight: bold;
 }
 
