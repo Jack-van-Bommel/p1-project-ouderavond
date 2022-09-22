@@ -1,5 +1,7 @@
 html {
   font-size: 62.5%;
+  background-color: black;
+  color: white;
 }
 body {
   font-family: "Goldman", cursive;
@@ -33,18 +35,37 @@ nav img {
   width: 5vw;
 }
 
-.tekst
-
-{
-font-size: 12px;  
-font-family: Verdana;
-list-style-type: circle;
-
+.Header_first_year_tcr {
+  background-image: url("/Programming/p1-HTML-CSS/Week 3/first_year_tcr_exercise/img/ethical_hacker.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 100px;
 }
 
-.tekst2
+.title  {
+  padding-top: 325px;
+  padding-bottom: 0px;
+}
 
-{
-font-size: 12px;  
-font-family: Verdana;
+h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.tekst {
+  font-size: 12px;  
+  font-family: Verdana;
+  list-style-type: circle;
+}
+
+.tekst2 {
+  font-size: 12px;  
+  font-family: Verdana;
+}
+
+footer {
+  background-color: #00a8c7;
+  text-align: center;
 }
