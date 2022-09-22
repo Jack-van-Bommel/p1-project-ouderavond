@@ -7,6 +7,9 @@ body {
   font-family: "Goldman", cursive;
 }
 
+
+
+
 nav {
   display: flex;
   width: 100%;
@@ -17,6 +20,8 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: relative;
+  z-index: 1;
 }
 nav ul {
   display: flex;
@@ -35,19 +40,21 @@ nav img {
   width: 5vw;
 }
 
+
+.header_image {
+  width: 100vw;
+  height: 100vw;
+  z-index: -1;
+  position: absolute;
+}
 .Header_first_year_tcr {
-  background-image: url("/Programming/p1-HTML-CSS/Week 3/first_year_tcr_exercise/img/ethical_hacker.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
   text-align: center;
-  padding-top: 1px;
-  padding-bottom: 100px;
+  z-index: 0;
+  position: relative;
+  padding-top: 100px;
+  height: 50vw
 }
 
-.title  {
-  padding-top: 325px;
-  padding-bottom: 0px;
-}
 
 h2 {
   font-weight: bold;
@@ -65,7 +72,14 @@ h2 {
   font-family: Verdana;
 }
 
+h4 {
+  font-size: 50px;
+}
+
+
 footer {
   background-color: #00a8c7;
   text-align: center;
+  height: 5vw;
+  font-size: 25px;
 }
