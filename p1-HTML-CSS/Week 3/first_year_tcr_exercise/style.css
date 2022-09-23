@@ -8,20 +8,27 @@ body {
 }
 
 
+.title_screen {
+  text-align: center;
+
+  background-repeat: no-repeat;
+  background-image: url("/p1-HTML-CSS/Week 3/first_year_tcr_exercise/img/ethical_hacker.jpg");
+  background-size: 100% 100%;
+  height: 1000px;
+  z-index: -1;
+}
 
 
 nav {
+  position: static;
   display: flex;
-  width: 100%;
+  size: 100%;
   padding: 2rem;
   min-height: 10vh;
   align-items: center;
   flex-wrap: wrap;
-  margin: auto;
   background: #00a8c7;
   justify-content: space-between;
-  position: relative;
-  z-index: 1;
 }
 nav ul {
   display: flex;
@@ -40,21 +47,10 @@ nav img {
   width: 5vw;
 }
 
-
-.header_image {
+article {
   width: 100vw;
-  height: 100vw;
-  z-index: -1;
-  position: absolute;
+  height: 100vh;
 }
-.Header_first_year_tcr {
-  text-align: center;
-  z-index: 0;
-  position: relative;
-  padding-top: 100px;
-  height: 50vw
-}
-
 
 h2 {
   font-weight: bold;
@@ -62,6 +58,7 @@ h2 {
 }
 
 .tekst {
+  padding-top: 500px;
   font-size: 12px;  
   font-family: Verdana;
   list-style-type: circle;
