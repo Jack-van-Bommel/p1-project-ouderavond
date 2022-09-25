@@ -10,24 +10,25 @@ body {
 
 .title_screen {
   text-align: center;
-  position: absolute;
+  position: static;
   background-size: cover;
 
   background-repeat: no-repeat;
-  background-image: url("/Programming/p1-HTML-CSS/Week 3/first_year_tcr_exercise/img/ethical_hacker.jpg");
+  background-image: url("/p1-HTML-CSS/Week 3/first_year_tcr_exercise/img/ethical_hacker.jpg");
   width: 100vw;
   height: 100vh;
   z-index: -1;
   font-size: 25px;
-  padding-top: 2rem;
+  padding-top: 15vh;
 }
 
 
 nav {
+  margin: 0;
   position: absolute;
   display: flex;
   size: 100%;
-  width: 100%;
+  width: 100vw;
   padding: 2rem;
   min-height: 10vh;
   align-items: center;
