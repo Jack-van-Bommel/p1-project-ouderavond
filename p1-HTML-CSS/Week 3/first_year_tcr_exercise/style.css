@@ -10,19 +10,24 @@ body {
 
 .title_screen {
   text-align: center;
+  position: absolute;
+  background-size: cover;
 
   background-repeat: no-repeat;
-  background-image: url("/p1-HTML-CSS/Week 3/first_year_tcr_exercise/img/ethical_hacker.jpg");
-  background-size: 100% 100%;
-  height: 1000px;
+  background-image: url("/Programming/p1-HTML-CSS/Week 3/first_year_tcr_exercise/img/ethical_hacker.jpg");
+  width: 100vw;
+  height: 100vh;
   z-index: -1;
+  font-size: 25px;
+  padding-top: 2rem;
 }
 
 
 nav {
-  position: static;
+  position: absolute;
   display: flex;
   size: 100%;
+  width: 100%;
   padding: 2rem;
   min-height: 10vh;
   align-items: center;
@@ -31,19 +36,23 @@ nav {
   justify-content: space-between;
 }
 nav ul {
+  margin: 0;
   display: flex;
   align-items: center;
   list-style-type: none;
 }
 nav li {
+  margin: 0;
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
 nav a {
+  margin: 0;
   color: white;
   text-decoration: none;
 }
 nav img {
+  margin: 0;
   width: 5vw;
 }
 
@@ -52,19 +61,26 @@ article {
   height: 100vh;
 }
 
+h1 {
+  font-weight: bold;
+}
 h2 {
   font-weight: bold;
   text-align: center;
 }
 
 .tekst {
-  padding-top: 500px;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 1000px;
   font-size: 12px;  
   font-family: Verdana;
   list-style-type: circle;
 }
 
 .tekst2 {
+  height: 100vh;
+  width: 100vw;
   font-size: 12px;  
   font-family: Verdana;
 }
@@ -77,6 +93,6 @@ h4 {
 footer {
   background-color: #00a8c7;
   text-align: center;
-  height: 5vw;
+  height: 10vh;
   font-size: 25px;
 }
