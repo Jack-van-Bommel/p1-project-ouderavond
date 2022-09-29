@@ -119,16 +119,15 @@ article {
 
 img {
   background-color: transparent;
-  padding-left: ;
-}
-
-.image_rechts {
-  float: right;
 }
 
 .image_left {
   float: left;
 }
+.image_rechts {
+  float: right;
+}
+
 
 
 footer {
