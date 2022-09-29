@@ -7,13 +7,11 @@ html {
   font-size: 62.5%;
   background-color: black;
   color: white;
-  top: 0;
-  overflow: visible;
 }
 body {
   font-family: "Goldman", cursive;
-  overflow: visible;
 }
+
 
 img {
   background-color: transparent;
@@ -29,25 +27,6 @@ h3 {
   font-weight: bold;
 }
 
-.Title {
-  background-image: url("/p1-HTML-CSS/Week 3/first_year_tcr_exercise/img/ethical_hacker.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  width: 100vw;
-  max-width: 100%;
-  height: 100vh;
-
-  color: white;
-  text-align: center;
-  padding-top: 50vh;
-  font-size: 5rem;
-  overflow: visible;
-}
-
-header {
-  overflow: visible;
-}
 
 nav {
   top: 0;
@@ -86,9 +65,32 @@ nav img {
   width: 5vw;
 }
 
+
+header {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+
+.Title {
+  background-image: url("/p1-HTML-CSS/Week 3/first_year_tcr_exercise/img/ethical_hacker.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+
+  color: white;
+  text-align: center;
+  padding-top: 50vh;
+  font-size: 5rem;
+}
+
 .lists {
-  padding-top: 15vh;
-  font-size: 2rem;
+  padding-top: 35vh;
+  font-size: 2.5rem;
   width: 100vw;
   max-width: 100%;
   height: 100vh;
@@ -107,11 +109,27 @@ nav img {
   font-family: Verdana;
 }
 
+
 article {
+  font-size: 2.5rem;
   width: 100vw;
   max-width: 100%;
   height: 100vh;
 }
+
+img {
+  background-color: transparent;
+  padding-left: ;
+}
+
+.image_rechts {
+  float: right;
+}
+
+.image_left {
+  float: left;
+}
+
 
 footer {
   background-color: #00a8c7;
@@ -120,4 +138,5 @@ footer {
   max-width: 100%;
   height: 7rem;
   font-size: 3rem;
+  padding: 1.75rem;
 }
