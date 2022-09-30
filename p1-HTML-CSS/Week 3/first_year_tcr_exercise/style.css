@@ -7,14 +7,14 @@ html {
   font-size: 62.5%;
   background-color: black;
   color: white;
+  display: block;
+  overflow: visible;
 }
 body {
   font-family: "Goldman", cursive;
+  overflow: visible;
 }
 
-img {
-  background-color: transparent;
-}
 
 h1 {
   font-weight: bold;
@@ -41,9 +41,15 @@ h3 {
   font-size: 5rem;
 }
 
+header {
+  overflow: visible;
+}
+
 nav {
+  top: 0;
+  max-height: none;
+  position: sticky;
   margin: 0;
-  position: absolute;
   display: flex;
   size: 100%;
   width: 100vw;
@@ -56,22 +62,26 @@ nav {
   justify-content: space-between;
 }
 nav ul {
+  position: sticky;
   margin: 0;
   display: flex;
   align-items: center;
   list-style-type: none;
 }
 nav li {
+  position: sticky;
   margin: 0;
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
 nav a {
+  position: sticky;
   margin: 0;
   color: white;
   text-decoration: none;
 }
 nav img {
+  position: sticky;
   margin: 0;
   width: 5vw;
 }
