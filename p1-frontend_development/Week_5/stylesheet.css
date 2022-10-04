@@ -24,7 +24,7 @@ nav ul {
     flex-wrap: wrap;
     align-items: center;
 }
-nav li {
+nav a {
     list-style-type: none;
     font-size: 2rem;
     padding-left: 2rem;
@@ -60,6 +60,9 @@ nav li {
     font-weight: bold;
 }
 
+a {
+    text-decoration: none;
+}
 
 .gedeelte_1 {
     display: block;
@@ -88,7 +91,7 @@ footer ul {
     display: flex;
     flex-direction: row;
 }
-footer li {
+footer a {
     padding-left: 2rem;
     padding-right: 2rem;
 }
