@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Barlow:400,500,700&display=swap);
+
 * {
     margin: 0;
     padding: 0;
     font-size: 62.5%;
-    font-family: sans-serif;
+    font-family: barlow, sans-serif;
     color: white;
 }
 
@@ -29,6 +31,7 @@ nav a {
     font-size: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    font-weight: bold;
 }
 .nav_links {
     padding-left: 2rem;
@@ -71,9 +74,13 @@ a {
     height: 100vh;
     background-color: #004630;
     color: white;
-    font-weight: bold;
-    font-size: 10rem;
 
+}
+.title_gedeelte_1 {
+    font-weight: bold;
+    font-size: 18rem;
+    padding-top: 15rem;
+    padding-left: 7rem;
 }
 
 
@@ -94,6 +101,7 @@ footer ul {
 footer a {
     padding-left: 2rem;
     padding-right: 2rem;
+    font-weight: bold;
 }
 .footer_image {
     height: 12vh;
