@@ -68,23 +68,21 @@ nav img {
   display: none;
   position: absolute;
   background-color: white;
-  min-width: 20vw;
+  min-width: 9.55vw;
   z-index: 5;
   box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
 }
 .dropdown_content a {
   color: #00a8c7;
   padding: 0.8rem 1rem;
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-align: left;
-  display: block;
   background-color: white;
 }
-.dropdown_content:hover {
-  background-color: #e9e9e9;
-}
 .dropdown:hover .dropdown_content{
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 
