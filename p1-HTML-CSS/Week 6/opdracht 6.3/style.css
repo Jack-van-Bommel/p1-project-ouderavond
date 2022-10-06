@@ -1,5 +1,5 @@
 * {
-    font-size: 62.5%;
+    size: 62.5%;
     margin: 0;
     padding: 0;
     color: blue;
@@ -10,7 +10,7 @@ nav {
     max-width: 100%;
     height: 25vh;
     background: beige;
-    font-size: 8rem;
+    font-size: 3rem;
 
     display: flex;
     flex-direction: row;
@@ -32,10 +32,11 @@ li {
 #logo {
     display: flex;
     width: 25%;
+    justify-content: center;
 }
 
 #login {
     display: flex;
     width: 25%;
-    justify-content: flex-end;
+    justify-content: center;
 }
