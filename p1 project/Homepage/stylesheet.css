@@ -21,7 +21,8 @@ nav ul {
     flex-direction: row;
 }
 nav li {
-
+    list-style-type: none;
+    
 }
 #title_nav {
 
