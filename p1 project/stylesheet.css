@@ -45,6 +45,42 @@ a {
     text-decoration: none;
 }
 
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 5;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+}
+.dropdown_content a {
+    color: white;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #006445;
+}
+.dropdown_btn {
+    display: flex;
+    background-color: #177d5e;
+
+    text-decoration: none;;
+    padding: 0.75rem;
+    border-radius: 9px;
+    box-shadow: 0px 2.5px 5px black;
+}
+.a_btn {
+    display: flex;
+}
+.dropdown:hover .dropdown_content{
+    display: flex;
+    flex-direction: column;
+}
+.a_btn:hover {
+    background-color: #177d5e;
+}
+
+
 main {
     width: 100vw;
     max-width: 100%;
@@ -52,19 +88,6 @@ main {
     background-color: #004630;
 }
 
-
-.img_container{
-    position: absolute;
-    display: flex;
-    width: 100vw;
-    max-width: 100%;
-}
-#logo_tcr{
-    display: flex;
-    height: 2.5rem;
-    background-color: white !important;
-    justify-self: flex-start;
-}
 footer {
     display: flex;
     width: 100vw;
@@ -77,12 +100,21 @@ footer {
 .footer_list {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 90vw;
+    max-width: 100%;
     height: 2.5rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .footer_a {
     display: flex;
     font-size: 150%;
     padding-top: 0.35rem;
+    text-shadow: 0px 1px black;
+}
+
+.img_footer {
+    display: flex;
+    height: 2.5rem;
+    justify-content: flex-start;
+    background-color: white;
 }
