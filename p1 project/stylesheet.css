@@ -16,6 +16,7 @@
     background-color: #006445;
     flex-direction: column;
     padding-top: 1rem;
+    z-index: 10;
 }
 #title_nav {
     display: flex;
@@ -89,6 +90,8 @@ main {
     max-width: 100%;
     background-color: #004630;
 }
+
+
 .home_main {
     height: 78.9vh;
 }
@@ -179,6 +182,7 @@ main {
     box-shadow: 0px 2.5px 5px black;
 }
 
+
 .eduarte_main_header {
     display: flex;
     flex-wrap: wrap;
@@ -193,21 +197,106 @@ main {
     display: flex;
     color: black;
     width: 100%;
-    font-size: 300%;
+    font-size: 200%;
     justify-content: center;
+    text-decoration: underline;
 }
 #eduarte_header_p {
     margin: 1% 0;
     display: flex;
     color: #004630;
     width: 65%;
-    font-size: 200%;
+    font-size: 150%;
     font-weight: bold;
     text-shadow: 0px 2.5px 5px #93C837;
 }
-#img_eduarte_resultaten {
-    width: 100px;
+.rooster_header h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 1%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
 }
+.rooster_header p {
+    max-width: 60%;
+    display: flex;
+    font-size: 150%;
+    margin-left: 4%;
+}
+.eduarte_list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-top: 1%;
+}
+.eduarte_list li {
+    font-size: 125%;
+    margin-left: 5%;
+}
+#eduarte_list_title {
+    display: flex;
+    font-size: 130%;
+    margin-left: 4%;
+}
+#img_eduarte_rooster {
+    display: flex;
+    position: absolute;
+    width: 20%;
+    margin-left: 70%;
+    margin-top: 1%;
+    border: 3px solid #dbff4a;
+
+}
+.eduarte_resultaten {
+    margin-top: 1%;
+}
+.eduarte_resultaten h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 10%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.eduarte_resultaten p {
+    font-size: 125%;
+    margin-left: 4%;
+}
+#br {
+    color: #004630;
+}
+#img_eduarte_resultaten {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    border: 3px solid #dbff4a;
+}
+.eduarte_aanwezigheid {
+    padding-bottom: 2%;
+    width: 50%;
+    margin-left: 4%;
+}
+.eduarte_aanwezigheid h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.eduarte_aanwezigheid p {
+    font-size: 125%;
+    margin-left: 4%;
+}
+
 
 
 
