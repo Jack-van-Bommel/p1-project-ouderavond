@@ -183,6 +183,35 @@ main {
 }
 
 
+.bsa_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.bsa_header h1 {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    text-decoration: underline;
+}
+.bsa_header p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 65%;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+
+
 .eduarte_main_header {
     display: flex;
     flex-wrap: wrap;
