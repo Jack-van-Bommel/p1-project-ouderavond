@@ -6,6 +6,7 @@
     font-family: sans-serif;
 }
 
+
 .nav_container {
     display: flex;
     position: sticky;
@@ -84,17 +85,14 @@ a {
 
 
 
-
 main {
-    width: 100vw;
-    max-width: 100%;
     background-color: #004630;
 }
 
 
-.home_main {
-    height: 78.9vh;
-}
+
+
+
 .home_main_header {
     display: flex;
     flex-wrap: wrap;
@@ -180,6 +178,9 @@ main {
     margin-left: 66%;
     margin-top: 2.5%;
     box-shadow: 0px 2.5px 5px black;
+}
+#home_break {
+    padding-bottom: 3%;
 }
 
 
@@ -288,6 +289,8 @@ main {
 }
 
 
+
+
 .eduarte_main_header {
     display: flex;
     flex-wrap: wrap;
@@ -350,10 +353,9 @@ main {
     display: flex;
     position: absolute;
     width: 20%;
-    margin-left: 70%;
+    margin-left: 77%;
     margin-top: 1%;
     border: 3px solid #dbff4a;
-
 }
 .eduarte_resultaten {
     margin-top: 1%;
@@ -403,6 +405,8 @@ main {
 }
 
 
+
+
 .overjack_header {
     display: flex;
     flex-wrap: wrap;
@@ -430,7 +434,133 @@ main {
     font-weight: bold;
     text-shadow: 0px 2.5px 5px #93C837;
 }
-
+#img_overjack_mason {
+    display: flex;
+    position: absolute;
+    width: 20%;
+    margin-left: 70%;
+    margin-top: 1%;
+    border: 3px solid #dbff4a;
+}
+.overjack_wie {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.overjack_wie h3 {
+    display: flex;
+    text-align: center;
+    max-width: 23%;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 1%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+    margin-left: 38.5%;
+    margin-right: 38.5%;
+}
+.overjack_wie p {
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    font-size: 150%;
+    margin-left: 4%;
+ }
+.overjack_hobbies h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 1%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overjack_hobbies li {
+    font-size: 125%;
+    margin-left: 5%;
+}
+.overjack_hobbies h4 {
+    display: flex;
+    font-size: 130%;
+    margin-left: 4%;
+}
+#img_overjack_toets {
+    display: flex;
+    position: absolute;
+    width: 20%;
+    height: 35%;
+    object-fit: cover;
+    margin-left: 4%;
+    margin-top: 5%;
+    border: 3px solid #dbff4a;
+}
+.overjack_opleiding h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 70%;
+    margin-top: 5%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overjack_opleiding p {
+    font-size: 125%;
+    margin-left: 30%;
+    margin-right: 4%;
+    margin-bottom: 1%;
+    text-align: right
+}
+.overjack_idealerooster h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 8%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overjack_idealerooster p {
+    font-size: 125%;
+    margin-left: 4%;
+    margin-bottom: 1%;
+}
+.overjack_bijzonderheden h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 5%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overjack_bijzonderheden h4 {
+    display: flex;
+    font-size: 130%;
+    margin-left: 4%;
+}
+.overjack_bijzonderheden li {
+    font-size: 125%;
+    margin-left: 5%;
+    max-width: 60%;
+    margin-bottom: 0.5%;
+}
+.overjack_bijzonderheden {
+    padding-bottom: 2.5%;
+}
+#img_overjack_groep {
+    display: flex;
+    position: absolute;
+    width: 25%;
+    object-fit: contain;
+    margin-left: 70%;
+    margin-top: 5%;
+    border: 3px solid #dbff4a;
+}
 
 
 footer {
@@ -456,7 +586,6 @@ footer {
     padding-top: 0.35rem;
     text-shadow: 0px 1px black;
 }
-
 .img_footer {
     display: flex;
     height: 2.5rem;
