@@ -180,7 +180,7 @@ main {
     box-shadow: 0px 2.5px 5px black;
 }
 #home_break {
-    padding-bottom: 3%;
+    padding-bottom: 4.55%;
 }
 
 
@@ -501,7 +501,7 @@ main {
     font-size: 200%;
     font-weight: bold;
     margin-left: 70%;
-    margin-top: 5%;
+    margin-top: 6%;
     text-decoration: underline;
     margin-bottom: 0.2%;
     color: #dbff4a;
@@ -550,7 +550,7 @@ main {
     margin-bottom: 0.5%;
 }
 .overjack_bijzonderheden {
-    padding-bottom: 2.5%;
+    padding-bottom: 5%;
 }
 #img_overjack_groep {
     display: flex;
