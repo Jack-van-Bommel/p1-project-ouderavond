@@ -184,6 +184,95 @@ main {
 
 
 
+.examenplan_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.examenplan_header h2 {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    text-decoration: underline;
+}
+.examenplan_header p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 100;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+.examen_sod h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 1%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.examen_sod p {
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    font-size: 150%;
+    margin-left: 4%;
+    margin-top: 1%;
+    text-decoration: underline;
+ }
+ .examen_sod ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-top: 1%;
+}
+.examen_sod li {
+    font-size: 125%;
+    margin-left: 5%;
+}
+.examen_sod h4 {
+    display: flex;
+    font-size: 130%;
+    margin-left: 4%;
+}
+.examen_generiek ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-top: 1%;
+}
+.examen_generiek li {
+    font-size: 125%;
+    margin-left: 5%;
+}
+.examen_generiek h4 {
+    display: flex;
+    font-size: 130%;
+    margin-left: 4%;
+}
+.examen_generiek h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+
+
+
 .bsa_header {
     display: flex;
     flex-wrap: wrap;
