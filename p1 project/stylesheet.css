@@ -303,7 +303,7 @@ main {
 }
 .ouderavond_tabel {
     display: flex;
-    margin-top: 4%;
+    margin-top: 1.5%;
     margin-left: 4%;
     margin-right: 4%;
 }
@@ -320,6 +320,107 @@ main {
 table th {
     color: #dbff4a;
 }
+.ouderavond_main h3 {
+    display: flex;
+    width: 100%;
+    font-size: 200%;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #dbff4a;
+    justify-content: center;
+    margin-top: 2%;
+}
+#f_name {
+    color: black;
+}
+#l_name {
+    color: black;
+}
+#submit_btn {
+    background-color: #dbff4a;
+    color: #004630;
+    padding: 0.25% 0.5%;
+    font-weight: bold;
+    font-size: 120%;
+    border-radius: 9px;
+    box-shadow: 0px 2.5px 5px black;
+}
+.ouderavond_formulier p {
+    display: flex;
+    font-size: 130%;
+    justify-content: center;
+    font-weight: bold;
+    color: #e33230;
+    text-decoration: underline;
+}
+.ouderavond_formulier h4 {
+    display: flex;
+    font-size: 130%;
+    justify-content: center;
+    text-decoration: underline;
+}
+#f_name_label {
+    display: flex;
+    justify-content: center;
+}
+#f_name {
+    display: flex;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+#l_name_label {
+    display: flex;
+    justify-content: center;
+}
+#l_name {
+    display: flex;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+#ll_name_label {
+    display: flex;
+    justify-content: center;
+}
+#ll_name {
+    display: flex;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+.ouderavond_1_container {
+    display: flex;
+    padding: 50%;
+}
+.ouderavond_2_container {
+    display: flex;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+.ouderavond_3_container {
+    display: flex;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+.ouderavond_4_container {
+    display: flex;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+.ouderavond_5_container {
+    display: flex;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+
+
+
+
 
 .bsa_header {
     display: flex;
