@@ -393,6 +393,7 @@ table th {
     width: 25%;
     margin-left: 37.5%;
     margin-right: 37.5%;
+    color: black;
 }
 .avond_1_container {
     display: flex;
