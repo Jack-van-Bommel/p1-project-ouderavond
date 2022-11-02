@@ -345,6 +345,11 @@ table th {
     border-radius: 9px;
     box-shadow: 0px 2.5px 5px black;
 }
+.submit_btn_container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+}
 .ouderavond_formulier p {
     display: flex;
     font-size: 130%;
@@ -389,33 +394,25 @@ table th {
     margin-left: 37.5%;
     margin-right: 37.5%;
 }
-.ouderavond_1_container {
+.avond_1_container {
     display: flex;
-    padding: 50%;
+    justify-content: center;
+    padding-bottom: 0.5%;
 }
-.ouderavond_2_container {
+.avond_2_container {
     display: flex;
-    width: 25%;
-    margin-left: 37.5%;
-    margin-right: 37.5%;
+    justify-content: center;
+    padding-bottom: 0.5%;
 }
-.ouderavond_3_container {
+.avond_3_container {
     display: flex;
-    width: 25%;
-    margin-left: 37.5%;
-    margin-right: 37.5%;
+    justify-content: center;
+    padding-bottom: 0.5%;
 }
-.ouderavond_4_container {
+.avond_4_container {
     display: flex;
-    width: 25%;
-    margin-left: 37.5%;
-    margin-right: 37.5%;
-}
-.ouderavond_5_container {
-    display: flex;
-    width: 25%;
-    margin-left: 37.5%;
-    margin-right: 37.5%;
+    justify-content: center;
+    padding-bottom: 0.5%;
 }
 
 
